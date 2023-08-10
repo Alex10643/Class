@@ -8,13 +8,13 @@ public class Dog {
             this.breed = breed;
             this.speed = speed;
     }
-
+//FIXME method info() should return String, it's not printing in console!
     public void info() {
             System.out.println(name);
             System.out.println(breed);
             System.out.println(speed);
     }
-
+//FIXME method runDog should return "run" == speed. You have speed += 1
     void runDog() {
             System.out.print("Run ");
             for (int i = 0; i < speed; i++) {
