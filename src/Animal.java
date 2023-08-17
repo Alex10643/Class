@@ -9,16 +9,21 @@ public abstract class Animal {
         this.speed = speed;
     }
 
-    public void info() {
-        System.out.println(name);
-        System.out.println(breed);
-        System.out.println(speed);
+    public String info() {
+        String str = name + breed + speed;
+        return str;
     }
 
+    void run1() {
+        System.out.println("run = " + speed);
+    }
     void run() {
         for (int i = 0; i < speed; i++) {
             System.out.print("run ");
         }
         System.out.println(" ");
+    }
+    void voice() {
+        System.out.println("Meow");
     }
 }
