@@ -3,7 +3,5 @@ public class Cat extends Animal {
         super(name, breed, speed);
     }
 
-    public void info() {
 
-    }
 }

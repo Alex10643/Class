@@ -27,6 +27,8 @@ public class Main {
         Dog d1 = new Dog("Sharik", "German Shepherd", 12);
         d1.info();
         d1.runDog();
+        Cat c1 = new Cat("Pushok", "Persian kote", 5);
+
     }
 
 
