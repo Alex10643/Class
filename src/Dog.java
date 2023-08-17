@@ -16,7 +16,6 @@ public class Dog {
     }
 //FIXME method runDog should return "run" == speed. You have speed += 1
     void runDog() {
-            System.out.print("Run ");
             for (int i = 0; i < speed; i++) {
                 System.out.print("run ");
             }

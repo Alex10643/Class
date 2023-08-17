@@ -1,6 +1,6 @@
 public class Human {
     String name;
-    int age;
+    static int age;
     double weight;
 
     public Human(String name, int age, double weight) {
@@ -10,19 +10,18 @@ public class Human {
     }
 
 
-    void compare(Human human) {
+   /* public static void compare(Human, Human) {
         //FIXME secondAge is never used
-        int secondAge = human.age;
-        if (human.age > 20) {
+        if (Human.age > Human.age) {
             //FIXME we compare not with Vova every time (it's not "compareToVova" method) - every time human(name) can be different
             System.out.println("Older than Vova");
         }
-        else if (human.age < 20) {
+        else if (Human.age < Human.age) {
             System.out.println("Younger than Vova");
         }
         else {
             System.out.println("Equal years");
         }
-    }
+    }*/
 
 }
