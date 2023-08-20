@@ -9,19 +9,15 @@ public class Human {
         this.weight = weight;
     }
 
-
-   /* public static void compare(Human, Human) {
-        //FIXME secondAge is never used
-        if (Human.age > Human.age) {
-            //FIXME we compare not with Vova every time (it's not "compareToVova" method) - every time human(name) can be different
-            System.out.println("Older than Vova");
+    //The age of h1 and h2 is always equal to h2
+    public static void compare(Human h1, Human h2) {
+        System.out.println(h1.age + " " + h2.age);
+        if (h1.age < h2.age ) {
+            System.out.println(h1.name + "younger than" + h2.name);
         }
-        else if (Human.age < Human.age) {
-            System.out.println("Younger than Vova");
+        if (h1.age > h2.age) {
+            System.out.println(h1.name + " older than " + h2.name);
         }
-        else {
-            System.out.println("Equal years");
-        }
-    }*/
+    }
 
 }
