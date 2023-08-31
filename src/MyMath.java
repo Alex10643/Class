@@ -8,7 +8,7 @@ public class MyMath {
     }
 
     public static int mul(int... numbers) {
-        int multiplication = 0;
+        int multiplication = 1;
         for (int i : numbers) {
             multiplication *= i;
         }
@@ -16,7 +16,7 @@ public class MyMath {
     }
 
     public static double div(double... numbers) {
-        double division = 0;
+        double division = 1;
         for (double i : numbers) {
             division /= i;
         }
