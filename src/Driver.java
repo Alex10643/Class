@@ -1,4 +1,4 @@
-public class Driver extends Worker implements Inter {
+public class Driver extends Worker implements InterDriv {
     public Driver (String name) {
         super (name);
     }

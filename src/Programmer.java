@@ -1,4 +1,4 @@
-public class Programmer extends Worker implements Inter {
+public class Programmer extends Worker implements InterProg {
     public Programmer(String name) {
         super (name);
     }

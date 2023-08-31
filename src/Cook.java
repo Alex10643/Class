@@ -1,4 +1,4 @@
-public class Cook extends Worker implements Inter {
+public class Cook extends Worker implements InterCk {
     public Cook (String name) {
         super (name);
     }

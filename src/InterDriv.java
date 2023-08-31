@@ -1,3 +1,3 @@
-public interface Inter {
+public interface InterDriv {
     public void doSomeWork();
 }
