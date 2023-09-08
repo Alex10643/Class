@@ -1,29 +1,23 @@
 public abstract class Animal {
     String name;
     String breed;
-    int speed;
 
-    public Animal(String name,String breed, int speed) {
+    public Animal(String name,String breed) {
         this.name = name;
         this.breed = breed;
-        this.speed = speed;
     }
 
     public String info() {
-        String str = name + breed + speed;
+        String str = name + breed;
         return str;
     }
 
-    void run1() {
-        System.out.println("run = " + speed);
+    void run(int distance) {
+        System.out.println("dis = " + distance );
     }
-    void run() {
-        for (int i = 0; i < speed; i++) {
-            System.out.print("run ");
-        }
-        System.out.println(" ");
-    }
-    void voice() {
-        System.out.println("Meow");
-    }
+
+    abstract void swim(int distance);
+
+
+    abstract void voice();
 }

@@ -1,37 +1,34 @@
 public class Main {
 
     public static void main(String[] args) {
+        /*Employer e1 = new Employer("vova", "Junior", "blabbla", 79192423532l, 30000, 24 );
+        Employer e2 = new Employer("Lena", "Junior", "blabbla", 79192423532l, 30000, 20 );
+        Employer e3 = new Employer("Sasha", "Junior", "blabbla", 79192423532l, 30000, 41 );
+        Employer e4 = new Employer("Semyon", "Junior", "blabbla", 79192423532l, 30000, 27 );
+        Employer e5 = new Employer("Natasha", "Junior", "blabbla", 79192423532l, 30000, 120 );
 
-       /* Programmer chuvak = new Programmer("Vladimir");
-        Driver dude = new Driver("Ryan Gosling");
-        Cook chruchevoMaker = new Cook("Francesco");
+        Employer [] emp = new Employer[5];
+        emp[0] = e1;
+        emp[1] = e2;
+        emp[2] = e3;
+        emp[3] = e4;
+        emp[4] = e5;
+        for (int i = 0; i < emp.length; i++) {
+            if (emp[i].age > 40) {
+                System.out.print(emp[i].name);
+                System.out.println(emp[i].age);
+            }
+        }*/
+        Cat kote = new Cat("Barin", "Pushysti kot" );
+        Dog d1 = new Dog("Sharik", "Russian borzoi" );
+        kote.voice();
+        d1.voice();
 
-        for (int i = 0; i < 3; i++) {
-            chuvak.info();
-            dude.info();
-            chruchevoMaker.info();
+        kote.run();
+        d1.run();
 
-            chuvak.doSomeWork();
-            dude.doSomeWork();
-            chruchevoMaker.doSomeWork();
-            System.out.println();
-        }
+        kote.swim();
+        d1.swim();
 
-        System.out.println(MyMath.mul(1, 3, 3, 3));
-        System.out.println(MyMath.sum(52, 2, 4, 10));
-        System.out.println(MyMath.div(10, 2, 3)); */
-
-        MyArrayList listOfEmployers = new MyArrayList();
-        listOfEmployers.add("Vova");
-        listOfEmployers.add("Natasha");
-        listOfEmployers.add("Sasha");
-        listOfEmployers.add("Masha");
-        listOfEmployers.add("Kristina");
-        listOfEmployers.add("Master Yoda");
-
-        listOfEmployers.remove("Sasha");
-
-        System.out.println(listOfEmployers.get(2));
-        System.out.println(listOfEmployers.get(5));
     }
 }
