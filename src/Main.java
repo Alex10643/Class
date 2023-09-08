@@ -19,16 +19,7 @@ public class Main {
                 System.out.println(emp[i].age);
             }
         }*/
-        Cat kote = new Cat("Barin", "Pushysti kot" );
-        Dog d1 = new Dog("Sharik", "Russian borzoi" );
-        kote.voice();
-        d1.voice();
 
-        kote.run();
-        d1.run();
-
-        kote.swim();
-        d1.swim();
 
     }
 }
